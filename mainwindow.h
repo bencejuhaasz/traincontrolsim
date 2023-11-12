@@ -2,6 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QGridLayout>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -14,8 +15,12 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
+    void fun();
+
 
 private:
     Ui::MainWindow *ui;
+    QGridLayout *palyaelemek;
+    QGridLayout *vezerloelemek;
 };
 #endif // MAINWINDOW_H

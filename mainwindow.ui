@@ -26,10 +26,10 @@
       <x>0</x>
       <y>0</y>
       <width>168</width>
-      <height>881</height>
+      <height>931</height>
      </rect>
     </property>
-    <layout class="QGridLayout" name="gridLayout">
+    <layout class="QGridLayout" name="palyaelemek">
      <item row="1" column="0">
       <widget class="QPushButton" name="pushButton">
        <property name="sizePolicy">
@@ -132,12 +132,12 @@
     <property name="geometry">
      <rect>
       <x>0</x>
-      <y>880</y>
+      <y>930</y>
       <width>1911</width>
       <height>101</height>
      </rect>
     </property>
-    <layout class="QGridLayout" name="gridLayout_2">
+    <layout class="QGridLayout" name="vezerloelemek">
      <item row="0" column="2">
       <widget class="QPushButton" name="pushButton_9">
        <property name="sizePolicy">
@@ -202,6 +202,22 @@
        </property>
       </widget>
      </item>
+     <item row="0" column="5">
+      <widget class="QPushButton" name="pushButton_12">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="text">
+        <string>vezerloelem6</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
      <item row="0" column="0">
       <widget class="QPushButton" name="pushButton_7">
        <property name="sizePolicy">
@@ -216,21 +232,8 @@
        <property name="checkable">
         <bool>true</bool>
        </property>
-      </widget>
-     </item>
-     <item row="0" column="5">
-      <widget class="QPushButton" name="pushButton_12">
-       <property name="sizePolicy">
-        <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
-         <horstretch>0</horstretch>
-         <verstretch>0</verstretch>
-        </sizepolicy>
-       </property>
-       <property name="text">
-        <string>vezerloelem6</string>
-       </property>
-       <property name="checkable">
-        <bool>true</bool>
+       <property name="checked">
+        <bool>false</bool>
        </property>
       </widget>
      </item>
@@ -284,14 +287,6 @@
      <height>21</height>
     </rect>
    </property>
-   <widget class="QMenu" name="menuTrain_Control_SIm">
-    <property name="title">
-     <string>File</string>
-    </property>
-    <addaction name="actionPlay"/>
-    <addaction name="actionPause"/>
-   </widget>
-   <addaction name="menuTrain_Control_SIm"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
   <action name="actionPlay">
