@@ -18,6 +18,9 @@ public:
     void fun();
 
 
+private slots:
+    void on_play_pause_toggled(bool checked);
+
 private:
     Ui::MainWindow *ui;
     QGridLayout *palyaelemek;

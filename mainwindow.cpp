@@ -114,3 +114,74 @@ void MainWindow::fun() {
 }
 
 
+
+void MainWindow::on_play_pause_toggled(bool checked)
+{
+    if(checked) {
+        //toggle everything off
+        QPushButton * palya1 = this->findChild<QPushButton*>("pushButton_1");
+        QPushButton * vezerlo1 = this->findChild<QPushButton*>("pushButton_7");
+        palya1->click();
+        vezerlo1->click();
+        palya1->setChecked(false);
+        vezerlo1->setChecked(false);
+        for (int j = 0; j < palyaelemek->count(); ++j) {
+            // Get the widget at index 'i'
+            QLayoutItem *item = palyaelemek->itemAt(j);
+
+            // Check if the item is a widget and if it's a QPushButton
+            if (item && item->widget() && qobject_cast<QPushButton*>(item->widget())) {
+                QPushButton *masik_layout_button = qobject_cast<QPushButton*>(item->widget());
+
+                // Now 'button' is a pointer to each QPushButton in the grid
+                // You can perform actions on 'button' here
+                // For example, you might want to connect signals and slots:
+                masik_layout_button->setDisabled(true);
+            }
+        }
+        for (int j = 0; j < vezerloelemek->count(); ++j) {
+            // Get the widget at index 'i'
+            QLayoutItem *item = vezerloelemek->itemAt(j);
+
+            // Check if the item is a widget and if it's a QPushButton
+            if (item && item->widget() && qobject_cast<QPushButton*>(item->widget())) {
+                QPushButton *masik_layout_button = qobject_cast<QPushButton*>(item->widget());
+
+                // Now 'button' is a pointer to each QPushButton in the grid
+                // You can perform actions on 'button' here
+                // For example, you might want to connect signals and slots:
+                masik_layout_button->setDisabled(true);
+            }
+        }
+    } else {
+        for (int j = 0; j < palyaelemek->count(); ++j) {
+            // Get the widget at index 'i'
+            QLayoutItem *item = palyaelemek->itemAt(j);
+
+            // Check if the item is a widget and if it's a QPushButton
+            if (item && item->widget() && qobject_cast<QPushButton*>(item->widget())) {
+                QPushButton *masik_layout_button = qobject_cast<QPushButton*>(item->widget());
+
+                // Now 'button' is a pointer to each QPushButton in the grid
+                // You can perform actions on 'button' here
+                // For example, you might want to connect signals and slots:
+                masik_layout_button->setDisabled(false);
+            }
+        }
+        for (int j = 0; j < vezerloelemek->count(); ++j) {
+            // Get the widget at index 'i'
+            QLayoutItem *item = vezerloelemek->itemAt(j);
+
+            // Check if the item is a widget and if it's a QPushButton
+            if (item && item->widget() && qobject_cast<QPushButton*>(item->widget())) {
+                QPushButton *masik_layout_button = qobject_cast<QPushButton*>(item->widget());
+
+                // Now 'button' is a pointer to each QPushButton in the grid
+                // You can perform actions on 'button' here
+                // For example, you might want to connect signals and slots:
+                masik_layout_button->setDisabled(false);
+            }
+        }
+    }
+}
+
