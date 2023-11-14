@@ -25,7 +25,7 @@
      <rect>
       <x>0</x>
       <y>0</y>
-      <width>168</width>
+      <width>251</width>
       <height>931</height>
      </rect>
     </property>
@@ -39,23 +39,17 @@
         </sizepolicy>
        </property>
        <property name="text">
-        <string>palyaelem2</string>
+        <string/>
        </property>
-       <property name="checkable">
-        <bool>true</bool>
+       <property name="icon">
+        <iconset resource="icons.qrc">
+         <normaloff>:/icons/icons/switch.png</normaloff>:/icons/icons/switch.png</iconset>
        </property>
-      </widget>
-     </item>
-     <item row="3" column="0">
-      <widget class="QPushButton" name="pushButton_4">
-       <property name="sizePolicy">
-        <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
-         <horstretch>0</horstretch>
-         <verstretch>0</verstretch>
-        </sizepolicy>
-       </property>
-       <property name="text">
-        <string>palyaelem4</string>
+       <property name="iconSize">
+        <size>
+         <width>200</width>
+         <height>150</height>
+        </size>
        </property>
        <property name="checkable">
         <bool>true</bool>
@@ -71,55 +65,17 @@
         </sizepolicy>
        </property>
        <property name="text">
-        <string>palyaelem1</string>
+        <string/>
        </property>
-       <property name="checkable">
-        <bool>true</bool>
+       <property name="icon">
+        <iconset resource="icons.qrc">
+         <normaloff>:/icons/icons/rail.png</normaloff>:/icons/icons/rail.png</iconset>
        </property>
-      </widget>
-     </item>
-     <item row="2" column="0">
-      <widget class="QPushButton" name="pushButton_3">
-       <property name="sizePolicy">
-        <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
-         <horstretch>0</horstretch>
-         <verstretch>0</verstretch>
-        </sizepolicy>
-       </property>
-       <property name="text">
-        <string>palyaelem3</string>
-       </property>
-       <property name="checkable">
-        <bool>true</bool>
-       </property>
-      </widget>
-     </item>
-     <item row="4" column="0">
-      <widget class="QPushButton" name="pushButton_5">
-       <property name="sizePolicy">
-        <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
-         <horstretch>0</horstretch>
-         <verstretch>0</verstretch>
-        </sizepolicy>
-       </property>
-       <property name="text">
-        <string>palyaelem5</string>
-       </property>
-       <property name="checkable">
-        <bool>true</bool>
-       </property>
-      </widget>
-     </item>
-     <item row="5" column="0">
-      <widget class="QPushButton" name="pushButton_6">
-       <property name="sizePolicy">
-        <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
-         <horstretch>0</horstretch>
-         <verstretch>0</verstretch>
-        </sizepolicy>
-       </property>
-       <property name="text">
-        <string>palyaelem5</string>
+       <property name="iconSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
        </property>
        <property name="checkable">
         <bool>true</bool>
@@ -132,14 +88,14 @@
     <property name="geometry">
      <rect>
       <x>0</x>
-      <y>930</y>
+      <y>920</y>
       <width>1911</width>
-      <height>101</height>
+      <height>131</height>
      </rect>
     </property>
     <layout class="QGridLayout" name="vezerloelemek">
-     <item row="0" column="2">
-      <widget class="QPushButton" name="pushButton_9">
+     <item row="0" column="1">
+      <widget class="QPushButton" name="pushButton_8">
        <property name="sizePolicy">
         <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
          <horstretch>0</horstretch>
@@ -147,23 +103,17 @@
         </sizepolicy>
        </property>
        <property name="text">
-        <string>vezerloelem3</string>
+        <string/>
        </property>
-       <property name="checkable">
-        <bool>true</bool>
+       <property name="icon">
+        <iconset resource="icons.qrc">
+         <normaloff>:/icons/icons/gate.png</normaloff>:/icons/icons/gate.png</iconset>
        </property>
-      </widget>
-     </item>
-     <item row="0" column="3">
-      <widget class="QPushButton" name="pushButton_10">
-       <property name="sizePolicy">
-        <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
-         <horstretch>0</horstretch>
-         <verstretch>0</verstretch>
-        </sizepolicy>
-       </property>
-       <property name="text">
-        <string>vezerloelem4</string>
+       <property name="iconSize">
+        <size>
+         <width>80</width>
+         <height>80</height>
+        </size>
        </property>
        <property name="checkable">
         <bool>true</bool>
@@ -179,15 +129,25 @@
         </sizepolicy>
        </property>
        <property name="text">
-        <string>vezerloelem5</string>
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="icons.qrc">
+         <normaloff>:/icons/icons/60limit.png</normaloff>:/icons/icons/60limit.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>80</width>
+         <height>80</height>
+        </size>
        </property>
        <property name="checkable">
         <bool>true</bool>
        </property>
       </widget>
      </item>
-     <item row="0" column="1">
-      <widget class="QPushButton" name="pushButton_8">
+     <item row="0" column="3">
+      <widget class="QPushButton" name="pushButton_10">
        <property name="sizePolicy">
         <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
          <horstretch>0</horstretch>
@@ -195,7 +155,43 @@
         </sizepolicy>
        </property>
        <property name="text">
-        <string>vezerloelem2</string>
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="icons.qrc">
+         <normaloff>:/icons/icons/30limit.png</normaloff>:/icons/icons/30limit.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>80</width>
+         <height>80</height>
+        </size>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QPushButton" name="pushButton_9">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="icons.qrc">
+         <normaloff>:/icons/icons/station.png</normaloff>:/icons/icons/station.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>80</width>
+         <height>80</height>
+        </size>
        </property>
        <property name="checkable">
         <bool>true</bool>
@@ -211,7 +207,17 @@
         </sizepolicy>
        </property>
        <property name="text">
-        <string>vezerloelem6</string>
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="icons.qrc">
+         <normaloff>:/icons/icons/130limit.png</normaloff>:/icons/icons/130limit.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>80</width>
+         <height>80</height>
+        </size>
        </property>
        <property name="checkable">
         <bool>true</bool>
@@ -227,7 +233,17 @@
         </sizepolicy>
        </property>
        <property name="text">
-        <string>vezerolelem1</string>
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="icons.qrc">
+         <normaloff>:/icons/icons/light.png</normaloff>:/icons/icons/light.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>90</width>
+         <height>90</height>
+        </size>
        </property>
        <property name="checkable">
         <bool>true</bool>
@@ -242,10 +258,10 @@
    <widget class="QWidget" name="horizontalLayoutWidget">
     <property name="geometry">
      <rect>
-      <x>170</x>
+      <x>250</x>
       <y>0</y>
-      <width>221</width>
-      <height>91</height>
+      <width>211</width>
+      <height>202</height>
      </rect>
     </property>
     <layout class="QHBoxLayout" name="horizontalLayout">
@@ -257,8 +273,27 @@
          <verstretch>0</verstretch>
         </sizepolicy>
        </property>
+       <property name="maximumSize">
+        <size>
+         <width>200</width>
+         <height>200</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
        <property name="text">
-        <string>play/pause</string>
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="icons.qrc">
+         <normaloff>:/icons/icons/playpause.png</normaloff>:/icons/icons/playpause.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>200</width>
+         <height>200</height>
+        </size>
        </property>
        <property name="checkable">
         <bool>true</bool>
@@ -290,6 +325,8 @@
    </property>
   </action>
  </widget>
- <resources/>
+ <resources>
+  <include location="icons.qrc"/>
+ </resources>
  <connections/>
 </ui>

@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>icons/playpause.png</file>
+        <file>icons/rail.png</file>
+        <file>icons/switch.png</file>
+        <file>icons/light.png</file>
+        <file>icons/gate.png</file>
+        <file>icons/station.png</file>
+        <file>icons/30limit.png</file>
+        <file>icons/60limit.png</file>
+        <file>icons/130limit.png</file>
+    </qresource>
+</RCC>
