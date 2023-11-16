@@ -119,8 +119,8 @@ void MainWindow::on_play_pause_toggled(bool checked)
 {
     if(checked) {
         //toggle everything off
-        QPushButton * palya1 = this->findChild<QPushButton*>("pushButton_1");
-        QPushButton * vezerlo1 = this->findChild<QPushButton*>("pushButton_7");
+        QPushButton * palya1 = this->findChild<QPushButton*>("pushButton_rail");
+        QPushButton * vezerlo1 = this->findChild<QPushButton*>("pushButton_light");
         palya1->click();
         vezerlo1->click();
         palya1->setChecked(false);
