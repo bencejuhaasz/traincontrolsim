@@ -14,6 +14,8 @@ class ThirtyLimitElement:public FieldElement
 public:
     ThirtyLimitElement();
     ~ThirtyLimitElement();
+private:
+    std::string whatami() override;
 };
 
 #endif // THIRTYLIMITELEMENT_H

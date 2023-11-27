@@ -14,6 +14,8 @@ class RailElement: public FieldElement
 public:
     RailElement();
     ~RailElement();
+private:
+    std::string whatami() override;
 };
 
 #endif // RAILELEMENT_H

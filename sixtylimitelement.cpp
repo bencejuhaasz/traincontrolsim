@@ -10,3 +10,8 @@ SixtyLimitElement::~SixtyLimitElement()
 {
 
 }
+
+std::string SixtyLimitElement::whatami()
+{
+    return "SixtyLimitElement";
+}

@@ -11,3 +11,8 @@ FieldElement::~FieldElement()
 {
 
 }
+
+std::string FieldElement::whatami()
+{
+    return "FieldElement";
+}

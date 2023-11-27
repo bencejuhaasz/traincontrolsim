@@ -14,6 +14,8 @@ class SwitchElement:public FieldElement
 public:
     SwitchElement();
     ~SwitchElement();
+private:
+    std::string whatami() override;
 };
 
 #endif // SWITCHELEMENT_H

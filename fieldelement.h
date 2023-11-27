@@ -14,7 +14,7 @@ public:
     ~FieldElement();
 private:
     int click();
-    std::string whatami();
+    virtual std::string whatami();
 };
 
 #endif // FIELDELEMENT_H

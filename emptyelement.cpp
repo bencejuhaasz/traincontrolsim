@@ -11,3 +11,8 @@ EmptyElement::~EmptyElement()
 {
 
 }
+
+std::string EmptyElement::whatami()
+{
+    return "Emptiness";
+}

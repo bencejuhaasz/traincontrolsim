@@ -14,6 +14,8 @@ class HundredAndThirtyLimit: public FieldElement
 public:
     HundredAndThirtyLimit();
     ~HundredAndThirtyLimit();
+private:
+    std::string whatami() override;
 };
 
 #endif // HUNDREDANDTHIRTYLIMIT_H

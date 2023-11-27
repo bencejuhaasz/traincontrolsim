@@ -11,3 +11,8 @@ ThirtyLimitElement::~ThirtyLimitElement()
 {
 
 }
+
+std::string ThirtyLimitElement::whatami()
+{
+    return "ThirtyLimitElement";
+}

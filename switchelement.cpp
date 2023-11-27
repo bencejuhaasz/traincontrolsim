@@ -10,3 +10,8 @@ SwitchElement::~SwitchElement()
 {
 
 }
+
+std::string SwitchElement::whatami()
+{
+    return "SwitchElement";
+}

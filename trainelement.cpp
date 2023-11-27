@@ -11,3 +11,8 @@ TrainElement::~TrainElement()
 {
 
 }
+
+std::string TrainElement::whatami()
+{
+    return "TrainElement";
+}

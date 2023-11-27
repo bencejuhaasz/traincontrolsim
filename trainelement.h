@@ -13,6 +13,8 @@ class TrainElement : public FieldElement {
 public:
     TrainElement();
     ~TrainElement();
+private:
+    std::string whatami() override;
 };
 
 #endif // TRAINELEMENT_H

@@ -10,3 +10,8 @@ LightElement::~LightElement()
 {
 
 }
+
+std::string LightElement::whatami()
+{
+    return "LightElement";
+}

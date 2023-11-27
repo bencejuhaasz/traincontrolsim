@@ -14,6 +14,8 @@ class EmptyElement: public FieldElement
 public:
     EmptyElement();
     ~EmptyElement();
+private:
+    std::string whatami() override;
 };
 
 #endif // EMPTYELEMENT_H

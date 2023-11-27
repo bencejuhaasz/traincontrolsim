@@ -14,6 +14,8 @@ class SixtyLimitElement: public FieldElement
 public:
     SixtyLimitElement();
     ~SixtyLimitElement();
+private:
+    std::string whatami() override;
 };
 
 #endif // SIXTYLIMITELEMENT_H

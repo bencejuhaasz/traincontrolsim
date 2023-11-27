@@ -9,3 +9,8 @@ RailElement::~RailElement()
 {
 
 }
+
+std::string RailElement::whatami()
+{
+    return "RailElement";
+}
