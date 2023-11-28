@@ -1,7 +1,7 @@
 #include "lightelement.h"
 
 
-LightElement::LightElement()
+LightElement::LightElement(Direction d):FieldElement(d)
 {
 
 }

@@ -1,6 +1,7 @@
 #ifndef RAILELEMENT_H
 #define RAILELEMENT_H
 
+#include "direction.h"
 #include "fieldelement.h"
 #include <QMainWindow>
 #include <QObject>
@@ -12,7 +13,7 @@
 class RailElement: public FieldElement
 {
 public:
-    RailElement();
+    RailElement(Direction);
     ~RailElement();
 private:
     std::string whatami() override;

@@ -1,7 +1,7 @@
 #include "hundredandthirtylimit.h"
 
 
-HundredAndThirtyLimit::HundredAndThirtyLimit()
+HundredAndThirtyLimit::HundredAndThirtyLimit(Direction d):FieldElement(d)
 {
 
 }

@@ -24,6 +24,7 @@ SOURCES += \
     trainelement.cpp
 
 HEADERS += \
+    direction.h \
     emptyelement.h \
     field.h \
     fieldelement.h \

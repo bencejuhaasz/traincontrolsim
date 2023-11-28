@@ -1,6 +1,7 @@
 #ifndef LIGHTELEMENT_H
 #define LIGHTELEMENT_H
 
+#include "direction.h"
 #include "fieldelement.h"
 #include <QMainWindow>
 #include <QObject>
@@ -12,7 +13,7 @@
 class LightElement: public FieldElement
 {
 public:
-    LightElement();
+    LightElement(Direction);
     ~LightElement();
 private:
     std::string whatami() override;

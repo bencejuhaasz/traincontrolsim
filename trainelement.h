@@ -1,6 +1,7 @@
 #ifndef TRAINELEMENT_H
 #define TRAINELEMENT_H
 
+#include "direction.h"
 #include "fieldelement.h"
 #include <QMainWindow>
 #include <QObject>
@@ -11,7 +12,7 @@
 
 class TrainElement : public FieldElement {
 public:
-    TrainElement();
+    TrainElement(Direction);
     ~TrainElement();
 private:
     std::string whatami() override;

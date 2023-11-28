@@ -1,6 +1,6 @@
 #include "railelement.h"
 
-RailElement::RailElement()
+RailElement::RailElement(Direction d):FieldElement(d)
 {
 
 }

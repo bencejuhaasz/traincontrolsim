@@ -1,7 +1,7 @@
 #include "thirtylimitelement.h"
 
 
-ThirtyLimitElement::ThirtyLimitElement()
+ThirtyLimitElement::ThirtyLimitElement(Direction d):FieldElement(d)
 {
 
 }

@@ -1,6 +1,7 @@
 #ifndef SWITCHELEMENT_H
 #define SWITCHELEMENT_H
 
+#include "direction.h"
 #include "fieldelement.h"
 #include <QMainWindow>
 #include <QObject>
@@ -12,7 +13,7 @@
 class SwitchElement:public FieldElement
 {
 public:
-    SwitchElement();
+    SwitchElement(Direction);
     ~SwitchElement();
 private:
     std::string whatami() override;

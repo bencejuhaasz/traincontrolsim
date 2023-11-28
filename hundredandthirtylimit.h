@@ -1,6 +1,7 @@
 #ifndef HUNDREDANDTHIRTYLIMIT_H
 #define HUNDREDANDTHIRTYLIMIT_H
 
+#include "direction.h"
 #include "fieldelement.h"
 #include <QMainWindow>
 #include <QObject>
@@ -12,7 +13,7 @@
 class HundredAndThirtyLimit: public FieldElement
 {
 public:
-    HundredAndThirtyLimit();
+    HundredAndThirtyLimit(Direction);
     ~HundredAndThirtyLimit();
 private:
     std::string whatami() override;

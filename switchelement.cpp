@@ -1,7 +1,7 @@
 #include "switchelement.h"
 
 
-SwitchElement::SwitchElement()
+SwitchElement::SwitchElement(Direction d):FieldElement(d)
 {
 
 }

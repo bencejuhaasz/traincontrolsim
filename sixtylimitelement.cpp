@@ -1,7 +1,7 @@
 #include "sixtylimitelement.h"
 
 
-SixtyLimitElement::SixtyLimitElement()
+SixtyLimitElement::SixtyLimitElement(Direction d):FieldElement(d)
 {
 
 }

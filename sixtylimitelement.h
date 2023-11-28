@@ -1,6 +1,7 @@
 #ifndef SIXTYLIMITELEMENT_H
 #define SIXTYLIMITELEMENT_H
 
+#include "direction.h"
 #include "fieldelement.h"
 #include <QMainWindow>
 #include <QObject>
@@ -12,7 +13,7 @@
 class SixtyLimitElement: public FieldElement
 {
 public:
-    SixtyLimitElement();
+    SixtyLimitElement(Direction);
     ~SixtyLimitElement();
 private:
     std::string whatami() override;

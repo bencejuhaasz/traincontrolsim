@@ -1,6 +1,7 @@
 #ifndef THIRTYLIMITELEMENT_H
 #define THIRTYLIMITELEMENT_H
 
+#include "direction.h"
 #include "fieldelement.h"
 #include <QMainWindow>
 #include <QObject>
@@ -12,7 +13,7 @@
 class ThirtyLimitElement:public FieldElement
 {
 public:
-    ThirtyLimitElement();
+    ThirtyLimitElement(Direction);
     ~ThirtyLimitElement();
 private:
     std::string whatami() override;

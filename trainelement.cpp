@@ -1,7 +1,7 @@
 #include "trainelement.h"
 
 
-TrainElement::TrainElement()
+TrainElement::TrainElement(Direction d):FieldElement(d)
 {
 
 }

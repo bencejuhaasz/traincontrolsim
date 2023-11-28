@@ -1,6 +1,7 @@
 #ifndef EMPTYELEMENT_H
 #define EMPTYELEMENT_H
 
+#include "direction.h"
 #include "fieldelement.h"
 #include <QMainWindow>
 #include <QObject>
@@ -12,7 +13,7 @@
 class EmptyElement: public FieldElement
 {
 public:
-    EmptyElement();
+    EmptyElement(Direction);
     ~EmptyElement();
 private:
     std::string whatami() override;

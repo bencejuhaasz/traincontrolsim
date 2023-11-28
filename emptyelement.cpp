@@ -1,9 +1,8 @@
 #include "emptyelement.h"
 
 
-EmptyElement::EmptyElement()
+EmptyElement::EmptyElement(Direction d):FieldElement(d)
 {
-
 }
 
 
