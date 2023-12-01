@@ -1,13 +1,10 @@
 #ifndef THIRTYLIMITELEMENT_H
 #define THIRTYLIMITELEMENT_H
 
+#include "trainelement.h"
 #include "direction.h"
 #include "fieldelement.h"
-#include <QMainWindow>
-#include <QObject>
-#include <QQuickItem>
-#include <QSharedDataPointer>
-#include <QWidget>
+
 
 
 class ThirtyLimitElement:public FieldElement
@@ -17,6 +14,8 @@ public:
     ~ThirtyLimitElement();
 private:
     std::string whatami() override;
+    int moveTrainTo() override;
+    int moveTrainTo(TrainElement&t);
 };
 
 #endif // THIRTYLIMITELEMENT_H

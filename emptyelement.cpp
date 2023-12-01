@@ -15,3 +15,8 @@ std::string EmptyElement::whatami()
 {
     return "Emptiness";
 }
+
+int EmptyElement::moveTrainTo()
+{
+    return -1;
+}

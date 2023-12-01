@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="trainengine"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/mnt/c/Users/user/Desktop/trainengine/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/user/Desktop/trainengine/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/user/Desktop/trainengine/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/user/Desktop/trainengine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/user/Desktop/trainengine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="trainengine">
+				<Option output="/mnt/c/Users/user/Desktop/trainengine/cmake-build-debug/trainengine" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/user/Desktop/trainengine/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/user/Desktop/trainengine/."/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward"/>
+					<Add directory="/usr/lib/llvm-14/lib/clang/14.0.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/user/Desktop/trainengine/cmake-build-debug/Makefile&quot;  VERBOSE=1 trainengine"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/user/Desktop/trainengine/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/user/Desktop/trainengine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/user/Desktop/trainengine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="trainengine/fast">
+				<Option output="/mnt/c/Users/user/Desktop/trainengine/cmake-build-debug/trainengine" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/user/Desktop/trainengine/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/user/Desktop/trainengine/."/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward"/>
+					<Add directory="/usr/lib/llvm-14/lib/clang/14.0.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/user/Desktop/trainengine/cmake-build-debug/Makefile&quot;  VERBOSE=1 trainengine/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/user/Desktop/trainengine/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/user/Desktop/trainengine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/user/Desktop/trainengine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/mnt/c/Users/user/Desktop/trainengine/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/user/Desktop/trainengine/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/user/Desktop/trainengine/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/user/Desktop/trainengine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/user/Desktop/trainengine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/mnt/c/Users/user/Desktop/trainengine/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/user/Desktop/trainengine/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/user/Desktop/trainengine/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/user/Desktop/trainengine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/c/Users/user/Desktop/trainengine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/mnt/c/Users/user/Desktop/trainengine/direction.h">
+			<Option target="trainengine"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/user/Desktop/trainengine/emptyelement.cpp">
+			<Option target="trainengine"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/user/Desktop/trainengine/emptyelement.h">
+			<Option target="trainengine"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/user/Desktop/trainengine/field.cpp">
+			<Option target="trainengine"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/user/Desktop/trainengine/field.h">
+			<Option target="trainengine"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/user/Desktop/trainengine/fieldelement.cpp">
+			<Option target="trainengine"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/user/Desktop/trainengine/fieldelement.h">
+			<Option target="trainengine"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/user/Desktop/trainengine/hundredandthirtylimit.cpp">
+			<Option target="trainengine"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/user/Desktop/trainengine/hundredandthirtylimit.h">
+			<Option target="trainengine"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/user/Desktop/trainengine/lightelement.cpp">
+			<Option target="trainengine"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/user/Desktop/trainengine/lightelement.h">
+			<Option target="trainengine"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/user/Desktop/trainengine/main.cpp">
+			<Option target="trainengine"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/user/Desktop/trainengine/railelement.cpp">
+			<Option target="trainengine"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/user/Desktop/trainengine/railelement.h">
+			<Option target="trainengine"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/user/Desktop/trainengine/sixtylimitelement.cpp">
+			<Option target="trainengine"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/user/Desktop/trainengine/sixtylimitelement.h">
+			<Option target="trainengine"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/user/Desktop/trainengine/switchelement.cpp">
+			<Option target="trainengine"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/user/Desktop/trainengine/switchelement.h">
+			<Option target="trainengine"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/user/Desktop/trainengine/thirtylimitelement.cpp">
+			<Option target="trainengine"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/user/Desktop/trainengine/thirtylimitelement.h">
+			<Option target="trainengine"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/user/Desktop/trainengine/trainelement.cpp">
+			<Option target="trainengine"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/user/Desktop/trainengine/trainelement.h">
+			<Option target="trainengine"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/user/Desktop/trainengine/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
