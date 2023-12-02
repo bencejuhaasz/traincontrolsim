@@ -9,5 +9,6 @@
         <file>icons/30limit.png</file>
         <file>icons/60limit.png</file>
         <file>icons/130limit.png</file>
+        <file>icons/train.png</file>
     </qresource>
 </RCC>
