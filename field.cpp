@@ -3,6 +3,7 @@
 #include "trainelement.h"
 #include "railtoleftelement.h"
 #include "railtorightelement.h"
+#include "lightelement.h"
 #include <iostream>
 #include <string>
 #include <thread>
@@ -44,7 +45,24 @@ void Field::GameLogic(){
         for (int i=0;i<10;i++){
             for (int j=0;j<10;j++){
                 if(arr[i][j]->containsTrain==1){
+                    if(arr[i][j]->whatami()=="LightElement"){
+                        auto L = dynamic_cast<LightElement*>(arr[i][j]);
+                        if(L->state==RED){
+                            i=0;
+                            break;
+                        }
+                    }
+                    if(arr[i][j]->whatami()=="ThirtyLimitElement"){
+                        train->speed=3;
+                    }
+                    if(arr[i][j]->whatami()=="SixtyLimitElement"){
+                        train->speed=2;
+                    }
+                    if(arr[i][j]->whatami()=="HundredAndThirtyLimit"){
+                        train->speed=1;
+                    }
                     //DEBUG
+                    std::system("clear");
                     //std::cout<<"X: "<< i << "Y: " << j << std::endl;
                     std::cout << "----------"<< std::endl;
                     for (int a = 0; a < 10; ++a) {
@@ -57,7 +75,7 @@ void Field::GameLogic(){
                         }
                         std::cout << std::endl;
                     }
-                    sleep(1);
+                    sleep(train->speed);
                     //DEBUG
                     bool foundNext=false;
                     //goes straight

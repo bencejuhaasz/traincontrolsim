@@ -230,4 +230,9 @@ CMakeFiles/trainengine.dir/main.cpp.o: \
   /usr/include/x86_64-linux-gnu/bits/semaphore.h \
   /mnt/c/Users/user/Desktop/trainengine/./railelement.h \
   /mnt/c/Users/user/Desktop/trainengine/./railtoleftelement.h \
-  /mnt/c/Users/user/Desktop/trainengine/./railtorightelement.h
+  /mnt/c/Users/user/Desktop/trainengine/./railtorightelement.h \
+  /mnt/c/Users/user/Desktop/trainengine/./lightelement.h \
+  /mnt/c/Users/user/Desktop/trainengine/./thirtylimitelement.h \
+  /mnt/c/Users/user/Desktop/trainengine/./sixtylimitelement.h \
+  /mnt/c/Users/user/Desktop/trainengine/./hundredandthirtylimit.h \
+  /mnt/c/Users/user/Desktop/trainengine/./switchelement.h

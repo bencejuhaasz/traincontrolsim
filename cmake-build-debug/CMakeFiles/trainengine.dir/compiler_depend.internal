@@ -418,6 +418,7 @@ CMakeFiles/trainengine.dir/field.cpp.o
  /mnt/c/Users/user/Desktop/trainengine/railelement.h
  /mnt/c/Users/user/Desktop/trainengine/railtoleftelement.h
  /mnt/c/Users/user/Desktop/trainengine/railtorightelement.h
+ /mnt/c/Users/user/Desktop/trainengine/lightelement.h
  /usr/include/c++/11/iostream
  /usr/include/c++/11/istream
  /usr/include/c++/11/bits/istream.tcc
@@ -1206,6 +1207,11 @@ CMakeFiles/trainengine.dir/main.cpp.o
  /mnt/c/Users/user/Desktop/trainengine/railelement.h
  /mnt/c/Users/user/Desktop/trainengine/railtoleftelement.h
  /mnt/c/Users/user/Desktop/trainengine/railtorightelement.h
+ /mnt/c/Users/user/Desktop/trainengine/lightelement.h
+ /mnt/c/Users/user/Desktop/trainengine/thirtylimitelement.h
+ /mnt/c/Users/user/Desktop/trainengine/sixtylimitelement.h
+ /mnt/c/Users/user/Desktop/trainengine/hundredandthirtylimit.h
+ /mnt/c/Users/user/Desktop/trainengine/switchelement.h
 
 CMakeFiles/trainengine.dir/railelement.cpp.o
  /mnt/c/Users/user/Desktop/trainengine/railelement.cpp

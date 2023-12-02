@@ -25,16 +25,3 @@ int LightElement::click()
     }
     return 0;
 }
-
-int LightElement::moveTrainTo(){
-    return -1;
-}
-
-int LightElement::moveTrainTo(TrainElement &t) {
-    if(state==RED){
-        t.speed=0;
-        return -1;
-    }
-    addTrain();
-    return 0;
-}

@@ -6,19 +6,19 @@
 #include "fieldelement.h"
 
 
-enum State{straight, side};
+enum State_{straight, side};
 
 class SwitchElement:public FieldElement
 {
 public:
     SwitchElement(Direction);
     ~SwitchElement();
-private:
-    State state;
-    std::string whatami() override;
+
     int click() override;
-    int moveTrainTo() override;
-    int moveTrainTo(TrainElement&);
+
+private:
+    State_ state;
+    std::string whatami() override;
 };
 
 #endif // SWITCHELEMENT_H

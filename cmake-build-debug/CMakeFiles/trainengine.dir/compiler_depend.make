@@ -416,6 +416,7 @@ CMakeFiles/trainengine.dir/field.cpp.o: ../field.cpp \
   ../railelement.h \
   ../railtoleftelement.h \
   ../railtorightelement.h \
+  ../lightelement.h \
   /usr/include/c++/11/iostream \
   /usr/include/c++/11/istream \
   /usr/include/c++/11/bits/istream.tcc
@@ -1199,7 +1200,12 @@ CMakeFiles/trainengine.dir/main.cpp.o: ../main.cpp \
   /usr/include/x86_64-linux-gnu/bits/semaphore.h \
   ../railelement.h \
   ../railtoleftelement.h \
-  ../railtorightelement.h
+  ../railtorightelement.h \
+  ../lightelement.h \
+  ../thirtylimitelement.h \
+  ../sixtylimitelement.h \
+  ../hundredandthirtylimit.h \
+  ../switchelement.h
 
 CMakeFiles/trainengine.dir/railelement.cpp.o: ../railelement.cpp \
   ../railelement.h \
@@ -2381,15 +2387,15 @@ CMakeFiles/trainengine.dir/trainelement.cpp.o: ../trainelement.cpp \
 
 ../trainelement.cpp:
 
-../thirtylimitelement.h:
-
 ../thirtylimitelement.cpp:
-
-../switchelement.h:
 
 ../switchelement.cpp:
 
 ../railtorightelement.cpp:
+
+../switchelement.h:
+
+../thirtylimitelement.h:
 
 ../main.cpp:
 
@@ -2905,12 +2911,12 @@ CMakeFiles/trainengine.dir/trainelement.cpp.o: ../trainelement.cpp \
 
 ../railtoleftelement.h:
 
+/usr/include/c++/11/backward/binders.h:
+
+../lightelement.h:
+
 /usr/include/c++/11/istream:
 
 /usr/include/c++/11/clocale:
 
 ../hundredandthirtylimit.cpp:
-
-/usr/include/c++/11/backward/binders.h:
-
-../lightelement.h:

@@ -231,6 +231,7 @@ CMakeFiles/trainengine.dir/field.cpp.o: \
   /mnt/c/Users/user/Desktop/trainengine/./railelement.h \
   /mnt/c/Users/user/Desktop/trainengine/./railtoleftelement.h \
   /mnt/c/Users/user/Desktop/trainengine/./railtorightelement.h \
+  /mnt/c/Users/user/Desktop/trainengine/./lightelement.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/iostream \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/istream \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/istream.tcc

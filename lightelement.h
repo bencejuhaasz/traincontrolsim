@@ -13,12 +13,14 @@ class LightElement: public FieldElement
 public:
     LightElement(Direction);
     ~LightElement();
+
+    int click() override;
+
 private:
     State state;
     std::string whatami() override;
-    int click() override;
-    int moveTrainTo() override;
-    int moveTrainTo(TrainElement&t);
+
+    friend class Field;
 };
 
 #endif // LIGHTELEMENT_H

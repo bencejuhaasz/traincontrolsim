@@ -3,7 +3,7 @@
 
 TrainElement::TrainElement(Direction d):FieldElement(d)
 {
-    speed=130;
+    speed=1;
     containsTrain=true;
 }
 

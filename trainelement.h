@@ -11,8 +11,9 @@ class TrainElement : public FieldElement {
 public:
     TrainElement(Direction);
     ~TrainElement();
+
+    int speed=1;
 private:
-    int speed;
     std::string whatami() override;
     int moveTrainTo() override;
     friend class SwitchElement;
