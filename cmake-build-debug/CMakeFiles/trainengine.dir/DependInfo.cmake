@@ -15,6 +15,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/mnt/c/Users/user/Desktop/trainengine/lightelement.cpp" "CMakeFiles/trainengine.dir/lightelement.cpp.o" "gcc" "CMakeFiles/trainengine.dir/lightelement.cpp.o.d"
   "/mnt/c/Users/user/Desktop/trainengine/main.cpp" "CMakeFiles/trainengine.dir/main.cpp.o" "gcc" "CMakeFiles/trainengine.dir/main.cpp.o.d"
   "/mnt/c/Users/user/Desktop/trainengine/railelement.cpp" "CMakeFiles/trainengine.dir/railelement.cpp.o" "gcc" "CMakeFiles/trainengine.dir/railelement.cpp.o.d"
+  "/mnt/c/Users/user/Desktop/trainengine/railtoleftelement.cpp" "CMakeFiles/trainengine.dir/railtoleftelement.cpp.o" "gcc" "CMakeFiles/trainengine.dir/railtoleftelement.cpp.o.d"
+  "/mnt/c/Users/user/Desktop/trainengine/railtorightelement.cpp" "CMakeFiles/trainengine.dir/railtorightelement.cpp.o" "gcc" "CMakeFiles/trainengine.dir/railtorightelement.cpp.o.d"
   "/mnt/c/Users/user/Desktop/trainengine/sixtylimitelement.cpp" "CMakeFiles/trainengine.dir/sixtylimitelement.cpp.o" "gcc" "CMakeFiles/trainengine.dir/sixtylimitelement.cpp.o.d"
   "/mnt/c/Users/user/Desktop/trainengine/switchelement.cpp" "CMakeFiles/trainengine.dir/switchelement.cpp.o" "gcc" "CMakeFiles/trainengine.dir/switchelement.cpp.o.d"
   "/mnt/c/Users/user/Desktop/trainengine/thirtylimitelement.cpp" "CMakeFiles/trainengine.dir/thirtylimitelement.cpp.o" "gcc" "CMakeFiles/trainengine.dir/thirtylimitelement.cpp.o.d"

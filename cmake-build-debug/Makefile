@@ -297,6 +297,54 @@ railelement.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/trainengine.dir/build.make CMakeFiles/trainengine.dir/railelement.cpp.s
 .PHONY : railelement.cpp.s
 
+railtoleftelement.o: railtoleftelement.cpp.o
+.PHONY : railtoleftelement.o
+
+# target to build an object file
+railtoleftelement.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trainengine.dir/build.make CMakeFiles/trainengine.dir/railtoleftelement.cpp.o
+.PHONY : railtoleftelement.cpp.o
+
+railtoleftelement.i: railtoleftelement.cpp.i
+.PHONY : railtoleftelement.i
+
+# target to preprocess a source file
+railtoleftelement.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trainengine.dir/build.make CMakeFiles/trainengine.dir/railtoleftelement.cpp.i
+.PHONY : railtoleftelement.cpp.i
+
+railtoleftelement.s: railtoleftelement.cpp.s
+.PHONY : railtoleftelement.s
+
+# target to generate assembly for a file
+railtoleftelement.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trainengine.dir/build.make CMakeFiles/trainengine.dir/railtoleftelement.cpp.s
+.PHONY : railtoleftelement.cpp.s
+
+railtorightelement.o: railtorightelement.cpp.o
+.PHONY : railtorightelement.o
+
+# target to build an object file
+railtorightelement.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trainengine.dir/build.make CMakeFiles/trainengine.dir/railtorightelement.cpp.o
+.PHONY : railtorightelement.cpp.o
+
+railtorightelement.i: railtorightelement.cpp.i
+.PHONY : railtorightelement.i
+
+# target to preprocess a source file
+railtorightelement.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trainengine.dir/build.make CMakeFiles/trainengine.dir/railtorightelement.cpp.i
+.PHONY : railtorightelement.cpp.i
+
+railtorightelement.s: railtorightelement.cpp.s
+.PHONY : railtorightelement.s
+
+# target to generate assembly for a file
+railtorightelement.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trainengine.dir/build.make CMakeFiles/trainengine.dir/railtorightelement.cpp.s
+.PHONY : railtorightelement.cpp.s
+
 sixtylimitelement.o: sixtylimitelement.cpp.o
 .PHONY : sixtylimitelement.o
 
@@ -423,6 +471,12 @@ help:
 	@echo "... railelement.o"
 	@echo "... railelement.i"
 	@echo "... railelement.s"
+	@echo "... railtoleftelement.o"
+	@echo "... railtoleftelement.i"
+	@echo "... railtoleftelement.s"
+	@echo "... railtorightelement.o"
+	@echo "... railtorightelement.i"
+	@echo "... railtorightelement.s"
 	@echo "... sixtylimitelement.o"
 	@echo "... sixtylimitelement.i"
 	@echo "... sixtylimitelement.s"

@@ -20,6 +20,9 @@ private:
     friend class SixtyLimitElement;
     friend class HundredAndThirtyLimit;
     friend class RailElement;
+    friend class RailToLeftElement;
+    friend class RailToRightElement;
+    friend class LightElement;
 };
 
 #endif // TRAINELEMENT_H

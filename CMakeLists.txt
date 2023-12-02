@@ -27,4 +27,9 @@ add_executable(trainengine
         thirtylimitelement.cpp
         thirtylimitelement.h
         trainelement.cpp
-        trainelement.h)
+        trainelement.h
+        railtoleftelement.cpp
+        railtoleftelement.h
+        railtoleftelement.h
+        railtorightelement.cpp
+        railtorightelement.h)

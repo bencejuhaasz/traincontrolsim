@@ -12,6 +12,7 @@ public:
     Field();
     ~Field();
     //game logic access; return -1 is error, 0 is ok
+    int placeTrain(int x,int y,Direction);
     int place(int x, int y, FieldElement* element); //-1 might mean out of bounds, or game started
     int click(int x, int y); //while running the game, returns -1 if not started and does nothing
     int start(); //should return -1 if called twice ?

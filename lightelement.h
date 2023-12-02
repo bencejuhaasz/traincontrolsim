@@ -18,6 +18,7 @@ private:
     std::string whatami() override;
     int click() override;
     int moveTrainTo() override;
+    int moveTrainTo(TrainElement&t);
 };
 
 #endif // LIGHTELEMENT_H

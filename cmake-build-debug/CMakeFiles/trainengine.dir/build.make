@@ -223,6 +223,34 @@ CMakeFiles/trainengine.dir/trainelement.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/trainengine.dir/trainelement.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/user/Desktop/trainengine/trainelement.cpp -o CMakeFiles/trainengine.dir/trainelement.cpp.s
 
+CMakeFiles/trainengine.dir/railtoleftelement.cpp.o: CMakeFiles/trainengine.dir/flags.make
+CMakeFiles/trainengine.dir/railtoleftelement.cpp.o: ../railtoleftelement.cpp
+CMakeFiles/trainengine.dir/railtoleftelement.cpp.o: CMakeFiles/trainengine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/user/Desktop/trainengine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/trainengine.dir/railtoleftelement.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/trainengine.dir/railtoleftelement.cpp.o -MF CMakeFiles/trainengine.dir/railtoleftelement.cpp.o.d -o CMakeFiles/trainengine.dir/railtoleftelement.cpp.o -c /mnt/c/Users/user/Desktop/trainengine/railtoleftelement.cpp
+
+CMakeFiles/trainengine.dir/railtoleftelement.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/trainengine.dir/railtoleftelement.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/user/Desktop/trainengine/railtoleftelement.cpp > CMakeFiles/trainengine.dir/railtoleftelement.cpp.i
+
+CMakeFiles/trainengine.dir/railtoleftelement.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/trainengine.dir/railtoleftelement.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/user/Desktop/trainengine/railtoleftelement.cpp -o CMakeFiles/trainengine.dir/railtoleftelement.cpp.s
+
+CMakeFiles/trainengine.dir/railtorightelement.cpp.o: CMakeFiles/trainengine.dir/flags.make
+CMakeFiles/trainengine.dir/railtorightelement.cpp.o: ../railtorightelement.cpp
+CMakeFiles/trainengine.dir/railtorightelement.cpp.o: CMakeFiles/trainengine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/user/Desktop/trainengine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/trainengine.dir/railtorightelement.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/trainengine.dir/railtorightelement.cpp.o -MF CMakeFiles/trainengine.dir/railtorightelement.cpp.o.d -o CMakeFiles/trainengine.dir/railtorightelement.cpp.o -c /mnt/c/Users/user/Desktop/trainengine/railtorightelement.cpp
+
+CMakeFiles/trainengine.dir/railtorightelement.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/trainengine.dir/railtorightelement.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/user/Desktop/trainengine/railtorightelement.cpp > CMakeFiles/trainengine.dir/railtorightelement.cpp.i
+
+CMakeFiles/trainengine.dir/railtorightelement.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/trainengine.dir/railtorightelement.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/user/Desktop/trainengine/railtorightelement.cpp -o CMakeFiles/trainengine.dir/railtorightelement.cpp.s
+
 # Object files for target trainengine
 trainengine_OBJECTS = \
 "CMakeFiles/trainengine.dir/emptyelement.cpp.o" \
@@ -235,7 +263,9 @@ trainengine_OBJECTS = \
 "CMakeFiles/trainengine.dir/sixtylimitelement.cpp.o" \
 "CMakeFiles/trainengine.dir/switchelement.cpp.o" \
 "CMakeFiles/trainengine.dir/thirtylimitelement.cpp.o" \
-"CMakeFiles/trainengine.dir/trainelement.cpp.o"
+"CMakeFiles/trainengine.dir/trainelement.cpp.o" \
+"CMakeFiles/trainengine.dir/railtoleftelement.cpp.o" \
+"CMakeFiles/trainengine.dir/railtorightelement.cpp.o"
 
 # External object files for target trainengine
 trainengine_EXTERNAL_OBJECTS =
@@ -251,9 +281,11 @@ trainengine: CMakeFiles/trainengine.dir/sixtylimitelement.cpp.o
 trainengine: CMakeFiles/trainengine.dir/switchelement.cpp.o
 trainengine: CMakeFiles/trainengine.dir/thirtylimitelement.cpp.o
 trainengine: CMakeFiles/trainengine.dir/trainelement.cpp.o
+trainengine: CMakeFiles/trainengine.dir/railtoleftelement.cpp.o
+trainengine: CMakeFiles/trainengine.dir/railtorightelement.cpp.o
 trainengine: CMakeFiles/trainengine.dir/build.make
 trainengine: CMakeFiles/trainengine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/user/Desktop/trainengine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable trainengine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/user/Desktop/trainengine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable trainengine"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/trainengine.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -228,4 +228,6 @@ CMakeFiles/trainengine.dir/main.cpp.o: \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/parse_numbers.h \
   /usr/include/x86_64-linux-gnu/sys/time.h /usr/include/semaphore.h \
   /usr/include/x86_64-linux-gnu/bits/semaphore.h \
-  /mnt/c/Users/user/Desktop/trainengine/./railelement.h
+  /mnt/c/Users/user/Desktop/trainengine/./railelement.h \
+  /mnt/c/Users/user/Desktop/trainengine/./railtoleftelement.h \
+  /mnt/c/Users/user/Desktop/trainengine/./railtorightelement.h

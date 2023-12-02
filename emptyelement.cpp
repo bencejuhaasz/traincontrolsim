@@ -13,7 +13,7 @@ EmptyElement::~EmptyElement()
 
 std::string EmptyElement::whatami()
 {
-    return "Emptiness";
+    return "EmptyElement";
 }
 
 int EmptyElement::moveTrainTo()

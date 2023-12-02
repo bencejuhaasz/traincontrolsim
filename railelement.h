@@ -10,7 +10,7 @@
 class RailElement: public FieldElement
 {
 public:
-    RailElement(Direction);
+    explicit RailElement(Direction);
     ~RailElement();
 private:
     std::string whatami() override;

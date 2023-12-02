@@ -126,6 +126,18 @@
 		<Unit filename="/mnt/c/Users/user/Desktop/trainengine/railelement.h">
 			<Option target="trainengine"/>
 		</Unit>
+		<Unit filename="/mnt/c/Users/user/Desktop/trainengine/railtoleftelement.cpp">
+			<Option target="trainengine"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/user/Desktop/trainengine/railtoleftelement.h">
+			<Option target="trainengine"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/user/Desktop/trainengine/railtorightelement.cpp">
+			<Option target="trainengine"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/user/Desktop/trainengine/railtorightelement.h">
+			<Option target="trainengine"/>
+		</Unit>
 		<Unit filename="/mnt/c/Users/user/Desktop/trainengine/sixtylimitelement.cpp">
 			<Option target="trainengine"/>
 		</Unit>
