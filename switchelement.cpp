@@ -1,4 +1,7 @@
 #include "switchelement.h"
+#include <iostream>
+
+using namespace std;
 
 
 SwitchElement::SwitchElement(Direction d):FieldElement(d)
@@ -21,6 +24,7 @@ std::string SwitchElement::whatami()
 
 int SwitchElement::click()
 {
+    cout << "click hivodott\n" << endl;
     if(state==straight){
         state=side;
     } else{

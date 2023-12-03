@@ -12,7 +12,7 @@ public:
     TrainElement(Direction);
     ~TrainElement();
 
-    int speed=1;
+    int speed=1000;
 private:
     std::string whatami() override;
     int moveTrainTo() override;

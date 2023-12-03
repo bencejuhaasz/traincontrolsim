@@ -4,9 +4,14 @@
 #include "railtoleftelement.h"
 #include "railtorightelement.h"
 #include "lightelement.h"
+#include <thirtylimitelement.h>
+#include <sixtylimitelement.h>
+#include <hundredandthirtylimit.h>
+#include <switchelement.h>
 #include <iostream>
 #include <string>
 #include <thread>
+#include <windows.h>
 
 Field::Field()
 {
@@ -16,6 +21,31 @@ Field::Field()
             arr[i][j]=new EmptyElement(N);
         }
     }
+    arr[0][0]=new RailToRightElement(N);
+    arr[0][0]->containsTrain=true;
+    arr[0][0]=new TrainElement(E);
+    arr[0][1]=new RailElement(E);
+    arr[0][2]=new RailElement(E);
+    arr[0][3]=new RailToRightElement(E);
+    arr[1][3]=new ThirtyLimitElement(S);
+    arr[2][3]=new RailElement(S);
+    arr[3][3]=new RailToRightElement(S);
+    arr[3][2]=new SixtyLimitElement(W);
+    //LIGHT DEMO
+    arr[3][1]=new RailElement(W);
+    //auto L = new LightElement(W);
+    //L->click();
+    //f->place(3,1,L);
+    //LIGHT DEMO
+
+    //SWITCH DEMO
+    //f->place(3,0,new RailToRightElement(W));
+    auto S = new SwitchElement(W);
+    S->click();
+    arr[3][0]=S;
+    //SWITCH DEMO
+    arr[2][0]=new HundredAndThirtyLimit(N);
+    arr[1][0]=new RailElement(N);
 }
 
 
@@ -53,16 +83,16 @@ void Field::GameLogic(){
                         }
                     }
                     if(arr[i][j]->whatami()=="ThirtyLimitElement"){
-                        train->speed=3;
+                        train->speed=3000;
                     }
                     if(arr[i][j]->whatami()=="SixtyLimitElement"){
-                        train->speed=2;
+                        train->speed=2000;
                     }
                     if(arr[i][j]->whatami()=="HundredAndThirtyLimit"){
-                        train->speed=1;
+                        train->speed=1000;
                     }
                     //DEBUG
-                    std::system("clear");
+                    //std::system("clear");
                     //std::cout<<"X: "<< i << "Y: " << j << std::endl;
                     std::cout << "----------"<< std::endl;
                     for (int a = 0; a < 10; ++a) {
@@ -75,7 +105,7 @@ void Field::GameLogic(){
                         }
                         std::cout << std::endl;
                     }
-                    sleep(train->speed);
+                    Sleep(train->speed);
                     //DEBUG
                     bool foundNext=false;
                     //goes straight

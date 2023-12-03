@@ -18,11 +18,14 @@ public:
     int start(); //should return -1 if called twice ?
     int stop(); //should return -1 if called twice ? should it stop by itself sometimes ? (like crash)
     int clear(); //replaces everything w/ EmptyElement
+    bool stopped=true;
+
+    FieldElement * arr[10][10];
+
 
 private:
     TrainElement* train;
-    bool stopped=false;
-    FieldElement * arr[10][10];
+
     friend class FieldElement;
     void GameLogic();
 };

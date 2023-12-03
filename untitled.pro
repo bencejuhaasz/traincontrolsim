@@ -18,10 +18,16 @@ SOURCES += \
     main.cpp \
     mainwindow.cpp \
     railelement.cpp \
+    railtoleftelement.cpp \
+    railtorightelement.cpp \
     sixtylimitelement.cpp \
     switchelement.cpp \
     thirtylimitelement.cpp \
-    trainelement.cpp
+    trainelement.cpp \
+    ui_button.cpp \
+    ui_engine.cpp \
+    ui_field.cpp \
+    ui_fieldBoard.cpp
 
 HEADERS += \
     direction.h \
@@ -32,10 +38,17 @@ HEADERS += \
     lightelement.h \
     mainwindow.h \
     railelement.h \
+    railtoleftelement.h \
+    railtorightelement.h \
     sixtylimitelement.h \
     switchelement.h \
     thirtylimitelement.h \
-    trainelement.h
+    trainelement.h \
+    ui_backEndThread.h \
+    ui_button.h \
+    ui_engine.h \
+    ui_field.h \
+    ui_fieldBoard.h
 
 FORMS += \
     mainwindow.ui

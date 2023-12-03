@@ -51,3 +51,7 @@ int FieldElement::click()
 {
     return 0;
 }
+
+bool FieldElement::getContainsTrain(){
+    return containsTrain;
+}
